@@ -12,10 +12,10 @@
     <title>Stylish Portfolio - Start Bootstrap Theme</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link href="css/bootstrap.min.css" rel="stylesheet"> 
 
     <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
+     <link href="css/stylish-portfolio.css" rel="stylesheet"> 
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -39,7 +39,7 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top" onclick= '$("#menu-close").click()';>Fundación ProVida</a>
+                <a href="#top" onclick='$("#menu-close").click()' ;>Fundación ProVida</a>
             </li>
             <li>
                 <a href="#top" onclick='$("#menu-close").click();'>Inicio</a>
@@ -82,9 +82,13 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus et dolorum nulla.</h2>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt quia fugit ipsum eos nam voluptas
+                    <p class="lead ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt quia fugit ipsum eos nam voluptas
                         ducimus, repellendus doloremque voluptatem dicta, aliquam quos alias temporibus, cupiditate commodi
                         nemo accusantium autem architecto corporis nisi! Labore, quibusdam.<a target="_blank" href="#">Arquidiosesis de Bogota</a>.</p>
+                    <div class="video-responsive ">
+                        <iframe  src="https://www.youtube.com/embed/i5gZoiPG6kM?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+
                     <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore excepturi autem totam minus optio voluptate
                         molestias sapiente aliquam ab itaque quas corporis nostrum, est quis nesciunt aperiam veritatis similique
                         dolorem facere cumque qui. Error perferendis rem cum, porro facere ad vitae ea, maiores adipisci
@@ -186,7 +190,7 @@
     <!-- Callout -->
     <aside class="callout">
         <div class="text-vertical-center">
-            <h1 class=" text-danger">Ayudanos a Ayudar</h1>
+            <h1 class=" text-primary">Ayudanos a Ayudar</h1>
         </div>
     </aside>
 
@@ -200,30 +204,22 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                                </a>
+                                <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg" alt="Nuestro hogar" longdesc="Vista de nuestro Hogar Ubicado en Cota-Cundinamarca">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                                </a>
+                                <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg" alt="Imagen del Campo" longdesc="Imagen de las vacas y el area del campo de la finca">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                                </a>
+                                <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg" alt="Imagen de la Pisina" longdesc="La casa cuenta con piscina natural de gran tamaño">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-                                </a>
+                                <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg" alt="Imagen del Lago" longdesc="Tenemos 2 hermosos lagos totalmente protegidos">
                             </div>
                         </div>
                     </div>
@@ -262,7 +258,72 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <div class="row">
+            <div class="row ">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <div class="container ">
+                        <form>
+                            <div class="form-group row">
+                                <label for="inputEmail1" class="col-sm-2 col-form-label">Email</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="inputPassword1" class="col-sm-2 col-form-label">Password</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword1" placeholder="Password">
+                                </div>
+                            </div>
+                            <fieldset class="form-group row">
+                                <legend class="col-form-legend col-sm-2">Motivo</legend>
+                                <div class="col-sm-10">
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+            Deseo Apoyarlos Economicamente
+          </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+            Tengo Donaciones de Alimentos o Medicamentos que deseo aportar
+          </label>
+                                    </div>
+                                    <div class="form-check disabled">
+                                        <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+            Deseo Apoyar con mi Tiempo
+          </label>
+                                    </div>
+                                    <div class="form-check disabled">
+                                        <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios4" value="option4" disabled>
+            Otros
+          </label>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <div class="form-group row">
+                                <label class="col-sm-2 text-danger">IMPORTANTE</label>
+                                <div class="col-sm-10">
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+            <input class="form-check-input" type="checkbox"> Comprendo que son una fundacion sin animo de lucro, registrada y auditada. Y deseo Colaborar.
+          </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="offset-sm-2 col-sm-10">
+                                    <button type="submit" class="btn btn-primary">Enviar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row ">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h4><strong>Fundacion Provida</strong>
                     </h4>
