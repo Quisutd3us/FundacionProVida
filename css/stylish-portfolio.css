@@ -168,13 +168,9 @@ hr.small {
     -o-background-size: cover;
 }
 
-.header h1 {
-    border: solid 2px red;
-    margin: 1rem;
-}
+
 
 .header .blockquote .blockquote-footer {
-    border: solid 2px red;
     padding: 1rem;
 }
 
