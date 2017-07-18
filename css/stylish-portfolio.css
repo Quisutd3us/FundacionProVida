@@ -1,8 +1,8 @@
-/*!
- * Start Bootstrap - Stylish Portfolio (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
+
+/* helpers */
+.bordesAzul{
+    border: solid 2px blue;
+}
 
 
 /* Global Styles */
@@ -17,6 +17,7 @@ body {
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -29,7 +30,6 @@ body {
     font-size: 4.5em;
     font-weight: 700;
 }
-
 
 /* Custom Button Styles */
 
@@ -161,11 +161,12 @@ hr.small {
     padding-top: 10rem;
     width: 100%;
     height: 100%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    background: url(../img/bg.jpg) no-repeat top center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    pa
 }
 
 .header .blockquote .blockquote-footer {
@@ -191,6 +192,29 @@ hr.small {
     width: 100%;
     height: 100%;
 }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 992px) { 
+    header blockquote p{
+        background-color: rgba(100%, 96.1%, 93.3%, 0.73);
+    }
+
+    header blockquote footer{
+        background-color: rgba(100%, 96.1%, 93.3%, 0.73);
+    }
+    
+ }
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
 
 
 /* About */
@@ -228,6 +252,11 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.callout h1{
+    padding: 0.5rem;
+    text-shadow: 0.3rem 0.3rem whitesmoke;
 }
 
 
@@ -277,11 +306,16 @@ hr.small {
     pointer-events: none;
 }
 
+/* formulario */
+.formulario form:first-child{
+        margin-top: 3rem;
+
+}
 
 /* Footer */
 
 footer {
-    padding: 100px 0;
+    padding: 3rem 0;
 }
 
 #to-top {
@@ -290,3 +324,6 @@ footer {
     bottom: 5px;
     right: 5px;
 }
+
+/* helpers */
+
