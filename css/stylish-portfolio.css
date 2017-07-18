@@ -166,7 +166,7 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    pa
+    
 }
 
 .header .blockquote .blockquote-footer {
@@ -242,21 +242,25 @@ hr.small {
 
 /* Callout */
 
-.callout {
-    display: table;
-    width: 100%;
-    height: 400px;
-    color: #fff;
+.callout1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: url(../img/callout.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover;
     -o-background-size: cover;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    
 }
 
-.callout h1{
-    padding: 0.5rem;
+.callout1 h1{
+    padding: 2rem;
     text-shadow: 0.3rem 0.3rem whitesmoke;
+    background-color: white;
 }
 
 
@@ -324,7 +328,6 @@ hr.small {
         align-items: center;
     }
     .formulario img{
-        
         width: 40%;
     }
     
