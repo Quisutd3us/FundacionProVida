@@ -288,6 +288,9 @@ hr.small {
 .call-to-action .btn {
     margin: 10px;
 }
+#SkypeButton_Call_sistemas.ad-hoc_1{
+    border: 2px solid red;
+}
 
 
 /* Map */
@@ -311,6 +314,15 @@ hr.small {
         margin-top: 3rem;
 
 }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .formulario img{
+        width: 40%;
+        margin: 0 auto;
+    }
+    
+ }
 
 /* Footer */
 
